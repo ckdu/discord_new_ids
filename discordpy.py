@@ -1,7 +1,7 @@
 import discord
 
 token = "" # bot token
-channelId = 935399994675048458 # channel id to send new member ids in
+channelId = 0 # channel id to send new member ids in
 
 class MyClient(discord.Client):
     async def on_ready(self):
