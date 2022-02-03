@@ -1,8 +1,8 @@
 # Settings
-botToken = 'token here'
-maxAccAge = 3
-maxJoinIntervalSeconds = 5
-channelId = 855263696161734656
+botToken = 'token here' # bot token
+maxAccAge = 3 # Max account age in days to tolerate
+maxJoinIntervalSeconds = 5 # Max join interval between accounts of maxAccAge
+channelId = 0 # Channel ID to post the id's of detected bots
 
 import discord
 from datetime import datetime
