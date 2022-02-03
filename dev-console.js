@@ -6,7 +6,7 @@
 var elements = document.getElementsByClassName("anchor-1MIwyf anchorUnderlineOnHover-2qPutX");
 var ids = ""
 
-function textToClipboard(text) {                       // from stackoverflow xd
+function textToClipboard(text) {                       // function taken from walkman from stackoverflow
      var dummy = document.createElement("textarea");
      document.body.appendChild(dummy);
      dummy.value = text;
