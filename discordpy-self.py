@@ -1,5 +1,5 @@
-import discord
 import time
+import discord
 
 token = "token" # Discord token
 channelToWatch = 0 # Welcome channel ID
